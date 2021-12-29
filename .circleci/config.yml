@@ -44,7 +44,7 @@ jobs:
             #export APPLITOOLS_BATCH_ID=`echo $CIRCLE_SHA1`
             export APPLITOOLS_API_KEY
             npm install
-            npm test package.json
+            npm test
             #npx cypress run
             #run tutorial.py
             #
